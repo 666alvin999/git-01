@@ -126,4 +126,18 @@ lorem ipsum
 
 ---
 
+## Code
 
+```java
+class Car {
+    private int doors;
+    private int horses;
+    private String engine;
+    
+    public Car() {
+        this.doors = 0;
+        this.horses = 0;
+        this.engine = null;
+    }
+}
+```
