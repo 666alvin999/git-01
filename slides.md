@@ -74,3 +74,23 @@ gbd <branch-to-delete>
 ```
 
 gbd === git branch -delete
+
+---
+
+## Pushing changes to remote
+
+Once you committed your changes, run the command
+
+```console
+gpsup
+```
+gpsup === git pull -u origin main
+
+---
+
+## Pulling changes from remote
+
+```console
+gl
+```
+gl === git pull
