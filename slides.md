@@ -94,3 +94,20 @@ gpsup === git pull -u origin main
 gl
 ```
 gl === git pull
+
+---
+
+## Text
+
+lorem ipsum
+
+---
+
+## Lists
+
+- Lorem
+  - ipsum
+- Hello
+  - World
+
+---
