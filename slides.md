@@ -94,3 +94,56 @@ gpsup === git pull -u origin main
 gl
 ```
 gl === git pull
+
+---
+
+## Text
+
+lorem ipsum
+
+---
+
+## Lists
+
+- Lorem
+  - ipsum
+- Hello
+  - World
+
+---
+
+## Images
+
+![Rick Roll](https://dogemuchwow.com/wp-content/uploads/2019/09/cursed-cat-image-163325.jpg)
+
+--- 
+
+## Headers and Quotes
+### Chipi chipi
+#### Chapa chapa
+
+> Dubi dubi daba daba
+
+---
+
+## Code
+
+```java
+class Car {
+    private int doors;
+    private int horses;
+    private String engine;
+    
+    public Car() {
+        this.doors = 0;
+        this.horses = 0;
+        this.engine = null;
+    }
+}
+```
+
+---
+
+## Extras
+
+$15... more extra to test git cz
