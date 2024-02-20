@@ -156,3 +156,7 @@ aaaaaaaaa
 ---
 
 # How to apply commit
+
+---
+
+## How to fix last commit message
