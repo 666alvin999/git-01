@@ -147,3 +147,7 @@ class Car {
 ## Extras
 
 $15... more extra to test git cz
+
+---
+
+## How to automate issue closing
