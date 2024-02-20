@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.6.0",
   "scripts": {
+    "release": "./bin/release",
     "start": "webpack-dev-server --hot --config ./webpack.config.js",
     "clean": "rimraf dist",
     "build": "webpack --config ./webpack.config.js --mode production",

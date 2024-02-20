@@ -1,11 +1,12 @@
-#!/bin/sh
+#!/bin/bash
 
-echo "Starting the release: what's your version? Example: 1.0.0"
+npm version minor
+npm run changelog
 
-read next_version
-echo ''
-echo '==============================='
-echo "🔭 Creating tag $next_version  "
-echo '==============================='
-echo ''
-git tag -a $next_version -m "chore: 🤖 release $next_version"
+# Read 'version' key from package.json
+version=$(jq -r '.version' ./package.json)
+
+# Add a git tag based on the 'version'
+git tag -a "$version" -m "Release $version"
+git commit -am "chore: release $version"
+git push origin main --tags
