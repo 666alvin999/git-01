@@ -1,7 +1,7 @@
 {
   "name": "git-01",
   "private": true,
-  "version": "0.5.0",
+  "version": "0.6.0",
   "scripts": {
     "start": "webpack-dev-server --hot --config ./webpack.config.js",
     "clean": "rimraf dist",
