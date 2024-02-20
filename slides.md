@@ -152,3 +152,7 @@ aaaaaaaaa
 ---
 
 ## How to automate issue closing
+
+---
+
+# How to apply commit
